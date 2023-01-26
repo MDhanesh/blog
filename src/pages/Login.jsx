@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useFormik } from "formik";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import { login } from "../redux/features/authSlice";
 import "react-toastify/dist/ReactToastify.css";
 

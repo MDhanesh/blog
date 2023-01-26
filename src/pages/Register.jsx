@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useFormik } from "formik";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { ToastContainer, toast } from "react-toastify";
 import { register } from "../redux/features/authSlice";

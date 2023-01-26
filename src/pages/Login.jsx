@@ -6,8 +6,6 @@ import { toast } from "react-toastify";
 import { login } from "../redux/features/authSlice";
 import "react-toastify/dist/ReactToastify.css";
 
-import jwt_decode from "jwt-decode";
-
 const Login = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();

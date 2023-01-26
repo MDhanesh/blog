@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:4000/",
+  baseURL: "https://blog-be-drrp.onrender.com",
 });
 
 // For Login,SignIn and GoogleSignIn

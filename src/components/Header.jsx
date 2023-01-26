@@ -28,7 +28,7 @@ const Header = () => {
             style={{ fontFamily: "Pacifico", fontSize: "30px" }}
             href="#home"
           >
-            WebLog
+            Web blog
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
